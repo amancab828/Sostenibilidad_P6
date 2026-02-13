@@ -19,11 +19,18 @@
     <?php include 'includes/header.php'; ?>
 
     <div class="cuenta-container">
+        
         <h1>Perfil</h1>
         <h2>Mirar los datos de tu cuenta</h2>
 
-        <p></p>
+        <a href="user/register.php">Crear usuario</a>
+        <a href="user/login.php">Inicia sesión</a>
+        <a href="user/updateuser.php">Cambiar datos</a>
+
     </div>
+    
+    <!-- Footer -->
+    <?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

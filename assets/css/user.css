@@ -1,0 +1,70 @@
+/* Contenedor */
+.user-container{
+    display:flex;
+    justify-content:center;
+}
+
+/* Caja */
+.user-box{
+    margin: 100px;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    width:320px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+/* Título */
+.user-box h1{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+.user-box p{
+    color:gray;
+    margin-bottom:20px;
+}
+
+/* Inputs */
+.user-box label{
+    display:block;
+    text-align:left;
+    margin-top:10px;
+    font-size:14px;
+}
+
+.user-box input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+/* Botón */
+.user-box button{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    border:none;
+    border-radius:8px;
+    background:#2e7d32;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.user-box button:hover{
+    background:#1b5e20;
+}
+
+/* Link extra */
+.extra{
+    display:block;
+    margin-top:15px;
+    font-size:14px;
+    color:#2e7d32;
+    text-decoration:none;
+}

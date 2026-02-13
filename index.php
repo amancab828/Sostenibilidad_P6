@@ -44,7 +44,7 @@
     <section class="shop-section">
         <h1>Ordenadores de segunda mano</h1>
         <p class="shop-intro">
-            Tecnología reutilizada para un futuro más sostenible ♻️
+            Tecnología reutilizada para un futuro más sostenible 
         </p>
 
         <div class="products">
@@ -77,6 +77,9 @@
     </section>
 
 </div>
+
+<!-- Footer -->
+<?php include 'includes/footer.php'; ?>
 
 <script src="./assets/js/index.js"></script>
 
