@@ -1,63 +1,98 @@
 .empresas-container {
     background-color: #ffffff;
-    width: 80%;
-    padding: 30px 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 100, 0, 0.2);
-    margin-left: 10%;
-    margin-top: 25px;
+    width: 90%;
+    max-width: 1200px;
+    padding: 50px 30px;
+    border-radius: 30px;
+    box-shadow: 0 15px 35px rgba(0, 50, 0, 0.05);
+    margin: 40px auto;
+    text-align: center;
 }
 
 .empresas-container h1 {
-    color: #2e7d32;
-    text-align: center;
-    margin-bottom: 5px;
+    color: #1b5e20;
+    font-size: 2.5rem;
+    font-weight:800;
+    margin-bottom: 10px;
 }
 
 .empresas-container h2 {
-    color: #388e3c;
-    text-align: center;
-    margin-top: 0;
+    color: #66bba6;
+    font-size: 1.1rem;
+    font-weight:400;
+    letter-spacing:0.5px;
+    margin-bottom: 40px;
 }
 
 .empresas {
     display: flex;
-    gap: 30px;
     flex-wrap: wrap;
+    gap: 25px;
     justify-content: center;
+    margin-top: 30px;
+    width: 100%;
 }
 
 .empresas-card {
-    background-color: #f1f8e9;
-    width: 250px;
-    padding: 25px;
+background-color: #f9fbf9;
+    min-width: 200px;
+    flex: 1;
+    max-width: 280px;
+    padding: 30px 20px;
     border-radius: 20px;
-    box-shadow: 0 8px 20px rgba(0, 100, 0, 0.15);
-    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
 }
-
 .empresas-card:hover {
-    transform: translateY(-6px);
+    transform: translateY(-12px);
+    box-shadow: 0 15px 30px rgba(46, 125, 50, 0.15);
+    border-color:#c8e6c9;
+
 }
 
 .empresas-card img {
-    width: 110px;
-    margin-bottom: 15px;
+    width: auto;
+    margin-bottom: 25px;
+    height: 50px;
+    filter: grayscale(20%);
+    transition: filter 0.3 ease-in-out;
+}
+
+.empresas-card:hover img {
+    filter: grayscale(0%); 
+    transform: scale(1.1);  
 }
 
 .empresas-card h3 {
     color: #1b5e20;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.5;
+    transition:color 0.3 ease;
+
 }
 
 .empresas-card p {
-    color: #33691e;
+    color: #558b2f;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight:400;
+    max-width: 90%;
 }
 
 .empresas button {
-    background-color: #43a047;
+    background-color: #2e7d32;
     color: white;
     border: none;
-    padding: 10px 18px;
-    border-radius: 20px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    border-radius: 50px;
     cursor: pointer;
+    transition: background 0.3s, transform 0.2;
 }
