@@ -25,9 +25,10 @@
         <p></p>
         <div class="vender">
 
-            <div class="nuevo">
-                <p>+</p>
-            </div>
+            <a href="#" class="btn-mas">
+                <span>+</span>
+                <p>Añadir otro</p>
+            </a>
 
             <div class="productos">
                 <img src="./assets/imagenes/portatil dell latitude.jpg">
