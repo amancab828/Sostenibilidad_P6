@@ -20,7 +20,7 @@
 
     <div class="carro-container">
         <h1>Carro</h1>
-        <h2>Compra yaaa</h2>
+        <h2>Aqui apareceran sus productos</h2>
 
         <p></p>
     </div>

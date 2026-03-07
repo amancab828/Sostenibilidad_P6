@@ -55,7 +55,7 @@
         <div class="products">
 
             <div class="product-card portatil">
-                <img src="https://cdn-icons-png.flaticon.com/512/3474/3474362.png">
+                <img src="./assets/imagenes/portatil dell latitude.jpg">
                 <h3>Portátil Dell Latitude</h3>
                 <p>Intel i5 · 8GB RAM · 256GB SSD</p>
                 <span class="price">299 €</span>
@@ -63,7 +63,7 @@
             </div>
 
             <div class="product-card sobremesa">
-                <img src="https://cdn-icons-png.flaticon.com/512/3474/3474373.png">
+                <img src="./assets/imagenes/pc sobremesa hp.jpeg">
                 <h3>PC Sobremesa HP</h3>
                 <p>Intel i7 · 16GB RAM · 512GB SSD</p>
                 <span class="price">389 €</span>
@@ -71,7 +71,7 @@
             </div>
 
             <div class="product-card allinone">
-                <img src="https://cdn-icons-png.flaticon.com/512/3474/3474380.png">
+                <img src="./assets/imagenes/all in one lenovo.avif">
                 <h3>All in One Lenovo</h3>
                 <p>Intel i5 · 8GB RAM · 256GB SSD</p>
                 <span class="price">349 €</span>
