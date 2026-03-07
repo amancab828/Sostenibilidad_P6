@@ -19,3 +19,45 @@
     text-align: center;
     margin-top: 0;
 }
+
+.empresas {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.empresas-card {
+    background-color: #f1f8e9;
+    width: 250px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 100, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.empresas-card:hover {
+    transform: translateY(-6px);
+}
+
+.empresas-card img {
+    width: 110px;
+    margin-bottom: 15px;
+}
+
+.empresas-card h3 {
+    color: #1b5e20;
+}
+
+.empresas-card p {
+    color: #33691e;
+}
+
+.empresas button {
+    background-color: #43a047;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
