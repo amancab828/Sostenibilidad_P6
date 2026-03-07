@@ -12,7 +12,7 @@
 <body>
     <div class="user-container">
         <div class="user-box">
-            <h1>Regsitrate</h1>
+            <h1>Registrate</h1>
 
             <form>
                 <label>Usuario</label>

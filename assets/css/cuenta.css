@@ -1,21 +1,61 @@
 .cuenta-container {
     background-color: #ffffff;
-    width: 80%;
-    padding: 30px 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 100, 0, 0.2);
-    margin-left: 10%;
-    margin-top: 25px;
+    width: 85%;
+    max-width: 800px;
+    padding: 100px 50px;
+    min-height: 500px;
+    border-radius: 40px;
+    box-shadow: 0 20px 40px rgba(0, 50, 0, 0.08);
+    margin:60px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .cuenta-container h1 {
-    color: #2e7d32;
-    text-align: center;
-    margin-bottom: 5px;
+    color:#1b5e20;
+    font-size: 3rem;
+    font-weight:800;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
 }
 
 .cuenta-container h2 {
-    color: #388e3c;
+    color:#66bb6a;
+    font-size:1.2rem;
+    font-weight:400;
+    margin-bottom:50px;
+}
+
+.opciones-cuenta {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cuenta-container a{
+    text-decoration: none;
+    color:#1b5e20;
+    background-color:#e8f5e9;
+    padding: 16px 32px;
+    border-radius:50px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border: 2px solid #c8e6c9;
+    display: inline-block;
     text-align: center;
-    margin-top: 0;
+    min-width: 180px;
+}
+
+.cuenta-container a:hover{
+    background-color: #2e7d32;
+    border-color:#2e7d32;
+    color:#ffffff;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(46, 125, 50, 0.2);
 }
