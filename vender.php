@@ -23,6 +23,21 @@
         <h2>Vende yaaa</h2>
 
         <p></p>
+        <div class="vender">
+
+            <div class="nuevo">
+                <p>+</p>
+            </div>
+
+            <div class="productos">
+                <img src="https://cdn-icons-png.flaticon.com/512/3474/3474362.png">
+                <h3>Portátil Dell Latitude</h3>
+                <p>Intel i5 · 8GB RAM · 256GB SSD</p>
+                <span class="price">299 €</span>
+                <button>Ver</button>
+            </div>
+
+        </div>
     </div>
     
     <!-- Footer -->
