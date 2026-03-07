@@ -25,17 +25,22 @@
         <h2>Filtrar por</h2>
 
         <label>
-            <input type="checkbox" value="portatil" checked>
+            <input type="checkbox" value="todo" checked>
+            Todo
+        </label>
+
+        <label>
+            <input type="checkbox" value="portatil">
             Portátiles
         </label>
 
         <label>
-            <input type="checkbox" value="sobremesa" checked>
+            <input type="checkbox" value="sobremesa">
             Sobremesa
         </label>
 
         <label>
-            <input type="checkbox" value="allinone" checked>
+            <input type="checkbox" value="allinone">
             All in One
         </label>
     </aside>
