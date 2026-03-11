@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    const boton = document.getElementById("toggleFiltros");
+    const sidebar = document.getElementById("sidebar");
+
     const checkboxes = document.querySelectorAll(".sidebar input[type='checkbox']");
     const productos = document.querySelectorAll(".product-card");
 
@@ -47,6 +50,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         });
 
+    });
+
+    boton.addEventListener("click", function () {
+
+        sidebar.classList.toggle("sidebar-oculta");
+
+        if (sidebar.classList.contains("sidebar-oculta")) {
+            boton.textContent = "Mostrar filtros";
+        } else {
+            boton.textContent = "Ocultar filtros";
+        }
     });
 
 });

@@ -20,8 +20,10 @@
 
 <div class="shop-layout">
 
+    <button id="toggleFiltros">Mostrar / Ocultar filtros</button>
+
     <!-- BARRA LATERAL -->
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
         <h2>Filtrar por</h2>
 
         <label>
